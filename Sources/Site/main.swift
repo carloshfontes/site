@@ -14,8 +14,8 @@ struct Site: Website {
     }
 
     // Update these properties to configure your website:
-    var url = URL(string: "https://your-website-url.com")!
-    var name = "Site"
+    var url = URL(string: "http://carlosfontes.com")!
+    var name = "Carlos Fontes"
     var description = "A description of Site"
     var language: Language { .english }
     var imagePath: Path? { nil }
